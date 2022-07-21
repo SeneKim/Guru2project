@@ -32,6 +32,8 @@ class MainActivity : AppCompatActivity() {
 
 
 
+        //됐나요!??!?!? 된건가요?!?!?!?! 제발 그렇다고 해주세요!!!!!!!!!!!!!!
+        //여러분 화이팅 좋은 밤 되세요!!!
 
         updateButton.setOnClickListener {
 
