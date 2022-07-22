@@ -159,7 +159,7 @@ class signUpActivity : AppCompatActivity() {
                 isGoToSign = false
             }
             //비밀번호 2개가 같은지 확인
-            else if (!pwd.equals(pwdChk)) {
+            else if (pwd != pwdChk) {
                 Toast.makeText(this, "비밀번호를 똑같이 입력해주세요", Toast.LENGTH_LONG).show()
                 isGoToSign = false
             }
