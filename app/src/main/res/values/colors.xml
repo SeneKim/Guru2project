@@ -7,4 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!--앱에서 주로 사용하는 컬러-->
+    <color name="mainColor">#2EC18F</color>
+    <color name="subColor">#2DB587</color>
+    <color name="gray">#BDBDBD</color>
 </resources>

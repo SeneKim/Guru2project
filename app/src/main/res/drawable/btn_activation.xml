@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"> <!--버튼을 누르면-->
+        <shape android:padding="10dp" android:shape="rectangle">
+
+            <solid android:color="@color/white" />
+
+            <stroke android:width="1dp" android:color="@color/mainColor" />
+
+            <corners android:radius="5dp" />
+
+        </shape>
+    </item>
+
+    <item android:state_selected="true"> <!--버튼이 선택할 때-->
+        <shape android:padding="10dp" android:shape="rectangle">
+
+            <solid android:color="@color/white" />
+
+            <stroke android:width="3dp" android:color="@color/mainColor" />
+
+            <corners android:radius="5dp" />
+
+        </shape>
+    </item>
+
+    <item android:state_focused="true"> <!--버튼을 누르지 않음-->
+        <shape android:padding="10dp" android:shape="rectangle">
+
+            <solid android:color="@color/white" />
+
+            <stroke android:width="1dp" android:color="@color/gray" />
+
+            <corners android:radius="5dp" />
+
+        </shape>
+    </item>
+
+    <item>  //버튼 기본 상태
+        <shape android:padding="10dp" android:shape="rectangle">
+
+            <solid android:color="@color/white" />
+
+            <stroke android:width="1dp" android:color="@color/gray" />
+
+            <corners android:radius="5dp" />
+
+        </shape>
+
+    </item>
+</selector>

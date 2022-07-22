@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Guru2 project</string>
+    <string name="Q1">Q. 비건에 대한 당신의 관심은 어느정도 인가요?</string>
+    <string name="Q1A1">삶에 모든 고민이 비건에 향해 있어요!</string>
+    <string name="Q1A2">삶에서 조금씩 비건 요소를 실천해 나가고 있어요!</string>
+    <string name="Q1A3">비건에 대해 알아가고 싶어요!</string>
+    <string name="Q2">Q. 주 몇 회 채식을 하시나요?</string>
+    <string name="Q2A1">매 끼니마다</string>
+    <string name="Q2A2">하루에 한번</string>
+    <string name="Q2A3">일주일에 1~2번</string>
+    <string name="Q3">Q. 매 식단마다 어느 범위까지 드시나요?</string>
+    <string name="Q3A1">오로지 채소만 먹어요!</string>
+    <string name="Q3A2">유제품까지 소비해요!</string>
+    <string name="Q3A3">육류도 소비해요!</string>
+    <string name="complete">완료</string>
+    <string name="welcome">비건 빌리지에 입주하신 걸 환영합니다!</string>
+    <string name="LevelTitle">당신의 프로필은 \n LV.4 닌자</string>
+    <string name="Introduction">앞장서 비건을 실천하는 당신!\n당신은 이미 고수군요!</string>
 </resources>

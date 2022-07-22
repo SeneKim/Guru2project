@@ -9,6 +9,20 @@
         <entry key="..\:/Guru2project/app/src/main/res/layout/mainview.xml" value="0.33" />
         <entry key="..\:/Guru2project/app/src/main/res/layout/myprofile.xml" value="0.4036458333333333" />
         <entry key="..\:/Guru2project/app/src/main/res/layout/userprofile.xml" value="0.33" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/border.xml" value="0.1" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/btn_activation.xml" value="0.127" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/enabled_btn.xml" value="0.1" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/layout_background.xml" value="0.1" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/font/font.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_intro.xml" value="0.15045592705167174" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_main.xml" value="0.15045592705167174" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_main_screen.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_pre_test1.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_pre_test2.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_pre_test3.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_sign_up.xml" value="0.24048913043478262" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_splash.xml" value="0.15045592705167174" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_test_result.xml" value="0.24048913043478262" />
       </map>
     </option>
   </component>

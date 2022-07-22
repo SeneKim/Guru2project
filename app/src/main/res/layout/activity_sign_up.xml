@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login.auth.signUpActivity">
+
+
+    <!--상단-->
+    <ImageButton
+        android:id="@+id/cancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/joinTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/joinTitle"
+        app:srcCompat="@drawable/icon_x" />
+
+    <TextView
+        android:id="@+id/joinTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/notosanskr_bold"
+        android:gravity="center"
+        android:text="회원가입"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/joinTitle"
+        tools:ignore="MissingConstraints" />
+
+    <!--하단 정보 입력-->
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/signNext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/line">
+
+        <!--이메일 작성-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notosanskr_bold"
+            android:text="이메일"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <EditText
+            style="@style/AuthEditText"
+            android:id="@+id/emailArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_border"
+            android:hint="예 : village123@swu.com" />
+
+        <TextView
+            android:id="@+id/emailMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notosanskr_regular"
+            android:text="메일주소 형식"
+            android:textColor="@color/gray"
+            android:textSize="12dp" />
+
+        <!--비밀번호 입력-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/notosanskr_bold"
+            android:text="비밀번호"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <EditText
+            style="@style/AuthEditText"
+            android:id="@+id/pwdArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_border"
+            android:hint="비밀번호를 입력해주세요 "
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/pwdMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/notosanskr_regular"
+            android:text="영어, 숫자, 특수기호(~,!,@,#)를 포함한 8자 이상 "
+            android:textColor="@color/gray"
+            android:textSize="12dp" />
+
+        <!--비밀번호 확인-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/notosanskr_bold"
+            android:text="비밀번호 확인"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <EditText
+            style="@style/AuthEditText"
+            android:id="@+id/pwdChkArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_border"
+            android:hint="비밀번호를 한번 더 입력해 주세요."
+            android:inputType="textPassword" />
+
+        <!--닉네임 작성-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/notosanskr_bold"
+            android:text="닉네임"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/nickNameArea"
+            style="@style/AuthEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_border"
+            android:hint="예 : 비건냠냠"
+            android:privateImeOptions="defaultInputmode=korean"/>
+        <!--한글입력받고 싶은데 안된다....-->
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signNext"
+        style="@style/NextBtn"
+        android:enabled="false"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
