@@ -39,13 +39,22 @@
 
         <EditText
             android:id="@+id/내용입력"
-            android:padding="16dp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="459dp"
             android:layout_weight="1"
             android:fontFamily="@font/notosanskr_bold"
             android:hint="내용을 입력하세요."
-            />
+            android:maxLength="300"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.5"
+            android:hint="글자 수가 표시될 자리" />
 
         <ImageButton
             android:id="@+id/완료버튼"
