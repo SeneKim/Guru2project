@@ -12,4 +12,7 @@
     <color name="mainColor">#2EC18F</color>
     <color name="subColor">#2DB587</color>
     <color name="gray">#BDBDBD</color>
+    <color name="effectColor">#00DAA5</color>
+    <color name="lightGray">#D9D9D9</color>
+
 </resources>

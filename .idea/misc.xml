@@ -9,23 +9,17 @@
         <entry key="..\:/Guru2project/app/src/main/res/layout/mainview.xml" value="0.33" />
         <entry key="..\:/Guru2project/app/src/main/res/layout/myprofile.xml" value="0.4036458333333333" />
         <entry key="..\:/Guru2project/app/src/main/res/layout/userprofile.xml" value="0.33" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/solid_button.xml" value="0.167" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_hashtag.xml" value="0.25" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_intro.xml" value="0.16033434650455927" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_pre_test1.xml" value="0.3233695652173913" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_register.xml" value="0.22" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_test_result.xml" value="0.16033434650455927" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/Guru2project/app/src/main/res/layout/button_background_color.xml" value="0.10054347826086957" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/Guru2project/app/src/main/res/layout/userprofile.xml" value="0.10054347826086957" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/Guru2project/app/src/main/res/xml/button_background_color.xml" value="0.10054347826086957" />
-        <entry key="..\:/Users/82109/AndroidStudioProjects/SNSApplication/app/src/main/res/layout/activity_main.xml" value="0.10054347826086957" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/border.xml" value="0.1" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/btn_activation.xml" value="0.127" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/btn_day_selector.xml" value="0.157" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/btn_menu.xml" value="0.157" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/enabled_btn.xml" value="0.1" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/layout_background.xml" value="0.1" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/layout_challenge.xml" value="0.157" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/layout_recommend_post.xml" value="0.157" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/notification_on.xml" value="0.157" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/font/font.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_challenge_main.xml" value="0.17527173913043478" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_intro.xml" value="0.15045592705167174" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_main.xml" value="0.15045592705167174" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_main_screen.xml" value="0.24048913043478262" />
@@ -35,28 +29,9 @@
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_sign_up.xml" value="0.24048913043478262" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_splash.xml" value="0.15045592705167174" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_test_result.xml" value="0.24048913043478262" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/activity_board_write.xml" value="0.1" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/activity_intro.xml" value="0.4036458333333333" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/activity_main_screen.xml" value="0.4036458333333333" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/activity_pre_test1.xml" value="0.4036458333333333" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/activity_pre_test2.xml" value="0.4036458333333333" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/activity_pre_test3.xml" value="0.4036458333333333" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/activity_sign_up.xml" value="0.39221014492753625" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/activity_splash.xml" value="0.4036458333333333" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/activity_test_result.xml" value="0.4036458333333333" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/fragment_challenge.xml" value="0.4036458333333333" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/fragment_detail.xml" value="0.4036458333333333" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/fragment_home.xml" value="0.33" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/fragment_my_page.xml" value="0.4036458333333333" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/fragment_search.xml" value="0.4036458333333333" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/fragment_talk.xml" value="0.1" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/fragment_user.xml" value="0.4036458333333333" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/fragment_write.xml" value="0.4036458333333333" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/mainview.xml" value="0.4036458333333333" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/myprofile.xml" value="0.4036458333333333" />
-        <entry key="..\:/VeganVillage/app/src/main/res/layout/userprofile.xml" value="0.4036458333333333" />
-        <entry key="..\:/VeganVillage/app/src/main/res/menu/bottom_navigation_main.xml" value="0.40260416666666665" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/mainview.xml" value="0.33" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/myprofile.xml" value="0.21875" />
+        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/userprofile.xml" value="0.309375" />
       </map>
     </option>
   </component>
