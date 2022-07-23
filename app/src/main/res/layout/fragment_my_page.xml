@@ -1,17 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
-    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         tools:context=".fragments.MyPageFragment">
 
         <!-- TODO: Update blank fragment layout -->
+
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <LinearLayout
+                android:id="@+id/linearLayout12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:fontFamily="@font/notosanskr_bold"
+                    android:text="내 프로필"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/myProfileImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:adjustViewBounds="true"
+                android:gravity="center"
+                android:src="@drawable/level4"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout12"
+                app:layout_constraintVertical_bias="0.541" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -33,8 +75,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                     />
+                    android:layout_weight="1" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -45,7 +86,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@color/mainColor"/>
+                    android:background="@color/mainColor" />
 
             </LinearLayout>
 
@@ -53,6 +94,7 @@
                 android:id="@+id/linearLayout7"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
+                android:gravity="center"
                 android:background="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent">
@@ -84,7 +126,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:src="@drawable/navi_chall" />
+                    android:src="@drawable/navi_challenge" />
 
                 <ImageView
                     android:id="@+id/mypageTap"
@@ -95,6 +137,213 @@
 
 
             </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="248dp">
+
+                <TextView
+                    android:id="@+id/Myname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/notosanskr_regular"
+                    android:text="촌장"
+                    android:textColor="#333333"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/MyId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/notosanskr_regular"
+                    android:paddingLeft="10dp"
+                    android:text="veganvillage" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout9"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout8">
+
+                <TextView
+                    android:id="@+id/MyfollowText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="팔로우: 133" />
+
+                <TextView
+                    android:id="@+id/Myfollowers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="팔로워: 33" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/ProfileUpdateButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#2EC18F"
+                android:fontFamily="@font/notosanskr_regular"
+                android:text="프로필 수정"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout9" />
+
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray"
+                android:gravity="center"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout11"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.487"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ProfileUpdateButton"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout10"
+                android:layout_width="380dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ProfileUpdateButton">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/notosanskr_bold"
+                    android:text="참여한 첼린지"
+                    android:textAlignment="center" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="@color/gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/notosanskr_bold"
+                    android:text="내가 남긴 글"
+                    android:textAlignment="center" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="@color/gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/notosanskr_bold"
+                    android:text="보관함"
+                    android:textAlignment="center" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="1dp"
+                android:background="@color/gray"
+                android:gravity="center"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout11"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.487"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout10"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout11"
+                android:layout_width="380dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="23dp"
+                android:layout_marginEnd="16dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout10">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:hint="129"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="60dp"
+                    android:background="@color/gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:text="33"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="60dp"
+                    android:background="@color/gray" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/notosanskr_medium"
+                    android:text="29"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="1dp"
+                android:background="@color/gray"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="@+id/linearLayout11"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.487"
+                app:layout_constraintStart_toStartOf="parent" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

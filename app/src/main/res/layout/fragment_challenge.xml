@@ -52,6 +52,7 @@
                 android:id="@+id/linearLayout6"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
+                android:gravity="center"
                 android:background="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent">
@@ -83,7 +84,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:src="@drawable/navi_chall" />
+                    android:src="@drawable/navi_challenge" />
 
                 <ImageView
                     android:id="@+id/mypageTap"
