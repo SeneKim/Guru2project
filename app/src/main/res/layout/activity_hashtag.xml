@@ -53,6 +53,7 @@
             android:backgroundTint="@color/button_background_color"
             android:layout_margin="5dp"
             android:text="비건 레시피" />
+        //왜 버튼 색이 안 바뀌냐 ㅜㅜㅜㅠㅜㅠㅜㅠ
 
         <Button
             android:layout_width="wrap_content"
