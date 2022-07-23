@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,13 +7,58 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Veganvillage"
-        android:textAlignment="center"
-        android:textSize="30sp"/>
+        android:fontFamily="@font/notosanskr_bold"
+        android:textSize="40sp"
+        android:text="main_xml"/>
+<!--
 
+    <FrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/nav_division"
+        android:layout_below="@+id/toolbar_division">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_division"
+        android:background="#999999"
+        android:layout_above="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        app:itemIconTint="@color/mainColor"
+        app:itemTextColor="@color/mainColor"
+        app:menu="@menu/bottom_navigation_main">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView> -->
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/main_nav" />
+
+
+    <!--기존에 있던 것 주석처리
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -132,9 +177,7 @@
             android:layout_marginLeft="10dp"
             android:src="@drawable/ic_baseline_maps_ugc_24"/>
         
-    </LinearLayout>
+    </LinearLayout>-->
 
 
-
-
-</LinearLayout>
+</RelativeLayout>
