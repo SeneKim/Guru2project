@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import com.example.guru2project.MainActivity
 import com.example.guru2project.MainScreenActivity
 import com.example.guru2project.R
 
@@ -70,7 +71,7 @@ class testResultActivity : AppCompatActivity() {
 
         finshBtn.setOnClickListener {
             Toast.makeText(this, "어서오세요", Toast.LENGTH_LONG).show()
-            val intent = Intent(this, MainScreenActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
 
