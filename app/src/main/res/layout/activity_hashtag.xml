@@ -65,7 +65,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/solid_button"
+            android:background="@drawable/btn_even"
             android:layout_margin="5dp"
             android:text="해시태그"
             android:textColor="@color/mainColor" />
@@ -80,7 +80,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/solid_button"
+                android:background="@drawable/btn_even"
                 android:layout_margin="5dp"
                 android:text="비건 레시피"
                 android:textColor="@color/mainColor" />
@@ -89,7 +89,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/solid_button"
+                android:background="@drawable/btn_even"
                 android:layout_margin="5dp"
                 android:text="해시태그"
                 android:textColor="@color/mainColor" />
@@ -97,7 +97,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/solid_button"
+                android:background="@drawable/btn_even"
                 android:layout_margin="5dp"
                 android:text="해시태그"
                 android:textColor="@color/mainColor" />
