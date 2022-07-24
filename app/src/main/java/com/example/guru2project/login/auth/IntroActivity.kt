@@ -10,6 +10,7 @@ import android.widget.EditText
 import android.widget.Toast
 import com.example.guru2project.MainScreenActivity
 import com.example.guru2project.R
+import com.example.guru2project.fragments.HomeFragment
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase

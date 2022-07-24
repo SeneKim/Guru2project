@@ -11,6 +11,7 @@ import android.widget.Toast
 import com.example.guru2project.MainActivity
 import com.example.guru2project.MainScreenActivity
 import com.example.guru2project.R
+import com.example.guru2project.fragments.HomeFragment
 
 class testResultActivity : AppCompatActivity() {
 
@@ -71,7 +72,7 @@ class testResultActivity : AppCompatActivity() {
 
         finshBtn.setOnClickListener {
             Toast.makeText(this, "어서오세요", Toast.LENGTH_LONG).show()
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, HomeFragment::class.java)
             startActivity(intent)
         }
 

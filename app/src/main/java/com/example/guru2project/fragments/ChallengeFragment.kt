@@ -34,7 +34,7 @@ class ChallengeFragment : Fragment() {
 
         //쓰기 페이지
         binding.writeTap.setOnClickListener {
-            it.findNavController().navigate(R.id.action_myPageFragment_to_writeFragment)
+            it.findNavController().navigate(R.id.action_challengeFragment_to_writeFragment)
         }
 
         //마이 페이지
