@@ -20,14 +20,14 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/뒤로가기"
+                    android:id="@+id/back"
                     android:layout_width="52dp"
                     android:layout_height="56dp"
                     android:background="@drawable/back"
                     android:scaleType="matrix" />
 
                 <TextView
-                    android:id="@+id/분류"
+                    android:id="@+id/title_hashtag"
                     android:layout_width="match_parent"
                     android:layout_height="72dp"
                     android:fontFamily="@font/notosanskr_bold"
@@ -39,7 +39,7 @@
 
 
             <EditText
-                android:id="@+id/내용입력"
+                android:id="@+id/post"
                 android:layout_width="392dp"
                 android:layout_height="254dp"
                 android:layout_weight="1"
@@ -56,7 +56,7 @@
 
 
                 <ImageView
-                    android:id="@+id/사진버튼"
+                    android:id="@+id/photo_btn"
                     android:layout_width="48dp"
                     android:layout_height="match_parent"
                     android:layout_gravity="left"
@@ -64,7 +64,7 @@
                     android:onClick="LoadImage" />
 
                 <TextView
-                    android:id="@+id/글자수"
+                    android:id="@+id/count"
                     android:layout_width="167dp"
                     android:layout_height="43dp"
                     android:layout_gravity="right"
@@ -78,7 +78,7 @@
 
 
             <ImageButton
-                android:id="@+id/완료버튼"
+                android:id="@+id/finsh"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"

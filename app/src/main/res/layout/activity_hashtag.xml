@@ -18,14 +18,14 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/뒤로가기"
+            android:id="@+id/back"
             android:layout_width="52dp"
             android:layout_height="56dp"
             android:background="@drawable/back"
             android:scaleType="matrix" />
 
         <TextView
-            android:id="@+id/분류"
+            android:id="@+id/title_hashtag"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/notosanskr_bold"
