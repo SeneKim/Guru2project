@@ -18,14 +18,14 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/뒤로가기"
+            android:id="@+id/back"
             android:layout_width="52dp"
             android:layout_height="56dp"
             android:background="@drawable/back"
             android:scaleType="matrix" />
 
         <TextView
-            android:id="@+id/분류"
+            android:id="@+id/title_hashtag"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/notosanskr_bold"
@@ -49,26 +49,27 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/solid_button"
-            android:backgroundTint="@color/button_background_color"
             android:layout_margin="5dp"
-            android:text="비건 레시피" />
-        //왜 버튼 색이 안 바뀌냐 ㅜㅜㅜㅠㅜㅠㅜㅠ
+            android:background="@drawable/solid_button"
+            android:text="비건 레시피"
+            android:textColor="@color/mainColor" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/solid_button"
-            android:backgroundTint="@color/button_background_color"
             android:layout_margin="5dp"
-            android:text="해시태그" />
+            android:text="해시태그"
+            android:textColor="@color/mainColor" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/solid_button"
-            android:backgroundTint="@color/button_background_color"
+            android:background="@drawable/btn_even"
             android:layout_margin="5dp"
-            android:text="해시태그" />
+            android:text="해시태그"
+            android:textColor="@color/mainColor" />
+
 
     </LinearLayout>
         <LinearLayout
@@ -79,25 +80,28 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/solid_button"
-                android:backgroundTint="@color/button_background_color"
+                android:background="@drawable/btn_even"
                 android:layout_margin="5dp"
-                android:text="비건 레시피" />
+                android:text="비건 레시피"
+                android:textColor="@color/mainColor" />
+
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/solid_button"
-                android:backgroundTint="@color/button_background_color"
+                android:background="@drawable/btn_even"
                 android:layout_margin="5dp"
-                android:text="해시태그" />
+                android:text="해시태그"
+                android:textColor="@color/mainColor" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/solid_button"
-                android:backgroundTint="@color/button_background_color"
+                android:background="@drawable/btn_even"
                 android:layout_margin="5dp"
-                android:text="해시태그" />
+                android:text="해시태그"
+                android:textColor="@color/mainColor" />
+
 
         </LinearLayout>
 
@@ -119,7 +123,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/next"
+                android:background="@drawable/completion"
                 android:scaleType="matrix" />
 
         </LinearLayout>

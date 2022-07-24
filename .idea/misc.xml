@@ -12,7 +12,6 @@
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/border.xml" value="0.1" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/btn_activation.xml" value="0.127" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/btn_day_selector.xml" value="0.157" />
-        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/btn_enabled.xml" value="0.1825" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/btn_menu.xml" value="0.157" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/enabled_btn.xml" value="0.1" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/drawable/layout_background.xml" value="0.1" />
@@ -28,15 +27,10 @@
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_pre_test1.xml" value="0.24048913043478262" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_pre_test2.xml" value="0.24048913043478262" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_pre_test3.xml" value="0.24048913043478262" />
-        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_register.xml" value="0.20923913043478262" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_sign_up.xml" value="0.24048913043478262" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_splash.xml" value="0.15045592705167174" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/activity_test_result.xml" value="0.24048913043478262" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/fragment_challenge.xml" value="0.20923913043478262" />
-        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/fragment_home.xml" value="0.2717391304347826" />
-        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/fragment_my_page.xml" value="0.2717391304347826" />
-        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/fragment_search.xml" value="0.23007246376811594" />
-        <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/fragment_write.xml" value="0.23007246376811594" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/mainview.xml" value="0.33" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/myprofile.xml" value="0.21875" />
         <entry key="..\:/Users/joou7/AndroidStudioProjects/Guru2project/app/src/main/res/layout/userprofile.xml" value="0.309375" />
