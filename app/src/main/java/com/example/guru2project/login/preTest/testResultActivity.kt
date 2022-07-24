@@ -72,7 +72,7 @@ class testResultActivity : AppCompatActivity() {
 
         finshBtn.setOnClickListener {
             Toast.makeText(this, "어서오세요", Toast.LENGTH_LONG).show()
-            val intent = Intent(this, HomeFragment::class.java)
+            val intent = Intent(this, MainScreenActivity::class.java)
             startActivity(intent)
         }
 
