@@ -185,6 +185,7 @@ class signUpActivity : AppCompatActivity() {
 
                             //회원가입 후 사전 질문 화면으로 이동
                             val intent = Intent(this, preTest1Activity::class.java)
+                            intent.flags=Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
                             startActivity(intent)
                         } else {
                             Toast.makeText(this, "실패", Toast.LENGTH_LONG).show()
