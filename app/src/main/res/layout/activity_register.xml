@@ -47,7 +47,8 @@
                 android:hint="내용을 입력하세요."
                 android:inputType="text"
                 android:maxLength="300"
-                android:textCursorDrawable="@null" />
+                android:textCursorDrawable="@null"
+                android:scrollHorizontally="true"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
