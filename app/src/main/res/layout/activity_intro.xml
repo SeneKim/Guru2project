@@ -41,6 +41,8 @@
             android:background="@drawable/shape_border"
             style="@style/AuthEditText"
             android:hint="이메일"
+            android:singleLine="true"
+            android:lines="1"
             />
 
         <EditText
@@ -51,7 +53,9 @@
             android:background="@drawable/shape_border"
             style="@style/AuthEditText"
             android:hint="비밀번호"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:lines="1"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/loginBtn"

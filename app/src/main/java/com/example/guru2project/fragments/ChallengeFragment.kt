@@ -29,23 +29,6 @@ class ChallengeFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        auth = Firebase.auth
-/*        activity?.let {
-            *//*로그아웃 버튼*//*
-            view?.findViewById<Button>(R.id.logoutBtn)?.setOnClickListener {
-                Log.d("logout", "로그아웃 버튼 클릭")
-                auth.signOut()
-
-                val intent = Intent(context, IntroActivity::class.java)
-                intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
-                startActivity(intent)
-                Log.d("logout", "로그인 창 이동")
-
-            }
-
-        }*/
-
-
     }
 
     override fun onCreateView(
@@ -57,6 +40,25 @@ class ChallengeFragment : Fragment() {
 
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_challenge, container, false)
 
+        auth = Firebase.auth
+
+        binding.logoutBtn.setOnClickListener {
+
+            activity?.let {
+                /*로그아웃 버튼*/
+                view?.findViewById<Button>(R.id.logoutBtn)?.setOnClickListener {
+                    Log.d("logout", "로그아웃 버튼 클릭")
+                    auth.signOut()
+
+                    val intent = Intent(context, IntroActivity::class.java)
+                    intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
+                    startActivity(intent)
+                    Log.d("logout", "로그인 창 이동")
+
+                }
+
+            }
+        }
 
         //쓰기 페이지
         binding.writeTap.setOnClickListener {

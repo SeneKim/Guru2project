@@ -65,12 +65,14 @@
             android:textSize="16dp" />
 
         <EditText
-            style="@style/AuthEditText"
             android:id="@+id/emailArea"
+            style="@style/AuthEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/shape_border"
-            android:hint="예 : village123@swu.com" />
+            android:hint="예 : village123@swu.com"
+            android:lines="1"
+            android:singleLine="true" />
 
         <TextView
             android:id="@+id/emailMsg"
@@ -92,13 +94,15 @@
             android:textSize="16dp" />
 
         <EditText
-            style="@style/AuthEditText"
             android:id="@+id/pwdArea"
+            style="@style/AuthEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/shape_border"
             android:hint="비밀번호를 입력해주세요 "
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:lines="1"
+            android:singleLine="true" />
 
         <TextView
             android:id="@+id/pwdMsg"
@@ -120,13 +124,15 @@
             android:textSize="16dp" />
 
         <EditText
-            style="@style/AuthEditText"
             android:id="@+id/pwdChkArea"
+            style="@style/AuthEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/shape_border"
             android:hint="비밀번호를 한번 더 입력해 주세요."
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            android:lines="1"
+            android:singleLine="true" />
 
         <!--닉네임 작성-->
         <TextView
@@ -145,7 +151,9 @@
             android:layout_height="wrap_content"
             android:background="@drawable/shape_border"
             android:hint="예 : 비건냠냠"
-            android:privateImeOptions="defaultInputmode=korean"/>
+            android:lines="1"
+            android:privateImeOptions="defaultInputmode=korean"
+            android:singleLine="true" />
         <!--한글입력받고 싶은데 안된다....-->
 
 
@@ -154,10 +162,10 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/signNext"
         style="@style/NextBtn"
-        android:enabled="false"
         android:layout_width="0dp"
         android:layout_height="58dp"
         android:layout_marginBottom="16dp"
+        android:enabled="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
