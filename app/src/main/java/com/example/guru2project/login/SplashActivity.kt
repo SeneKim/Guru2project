@@ -9,6 +9,8 @@ import android.util.Log
 import com.example.guru2project.MainActivity
 import com.example.guru2project.MainScreenActivity
 import com.example.guru2project.R
+import com.example.guru2project.fragments.ChallengeFragment
+import com.example.guru2project.fragments.HomeFragment
 import com.example.guru2project.login.auth.IntroActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -43,10 +45,12 @@ class SplashActivity : AppCompatActivity() {
             /*스플래쉬 화면 3초 뒤 종료 -> intro 화면으로 이동*/
             Handler(Looper.getMainLooper()).postDelayed({
 
-                /*일정 시간이 지나면 로그인 창으로 이동*/
+                /*일정 시간이 지나면 메인화면으로 이동*/
                 val intent = Intent(this, MainScreenActivity::class.java)
                 intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION)
+                Log.d("SplashActivity","메인화면으로 이동")
                 startActivity(intent)
+                Log.d("SplashActivity","메인화면으로 완료")
                 finish()        /*이동한 다음 사용안함*/
             }, DURATION)
         }
