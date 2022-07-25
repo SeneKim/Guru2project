@@ -5,7 +5,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context=".MainActivity">
+        tools:context=".post.CountText">
 
 
         <LinearLayout
@@ -39,7 +39,7 @@
 
 
             <EditText
-                android:id="@+id/post"
+                android:id="@+id/editText"
                 android:layout_width="match_parent"
                 android:layout_height="254dp"
                 android:layout_weight="1"
@@ -65,7 +65,7 @@
                     android:onClick="LoadImage" />
 
                 <TextView
-                    android:id="@+id/count"
+                    android:id="@+id/textView"
                     android:layout_width="167dp"
                     android:layout_height="43dp"
                     android:layout_gravity="right"
