@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stage1"
+    tools:context=".story.StoryActivity">
+
+    <ImageView
+        android:id="@+id/me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/me"
+        app:layout_constraintBottom_toTopOf="@+id/animal2"
+        app:layout_constraintStart_toEndOf="@+id/animal3" />
+
+    <ImageView
+        android:id="@+id/animal2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/animal2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/animal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/animal1"
+        app:layout_constraintBottom_toBottomOf="@+id/animal2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/animal3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/animal3"
+        app:layout_constraintBottom_toBottomOf="@+id/me"
+        app:layout_constraintStart_toStartOf="@+id/text" />
+
+    <ImageView
+        android:id="@+id/ring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="105dp"
+        android:background="@drawable/ring"
+        app:layout_constraintBottom_toTopOf="@+id/me"
+        app:layout_constraintEnd_toEndOf="@+id/text"
+        app:layout_constraintStart_toStartOf="@+id/me"
+        app:layout_constraintTop_toTopOf="@+id/me" />
+
+    <ImageButton
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="5dp"
+        android:text="육식이 넘쳐나는 사회에 질려버린 모난 세모.."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:fontFamily="@font/notosanskr_bold"
+        app:layout_constraintEnd_toEndOf="@+id/animal1"
+        app:layout_constraintTop_toTopOf="@+id/animal3" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
