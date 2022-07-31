@@ -36,16 +36,8 @@ class MainActivity : AppCompatActivity(), NavigationBarView.OnItemSelectedListen
         myStorage = findViewById(R.id.MyStorage)
         myChallenge = findViewById(R.id.MyChallenge)
 
-    //게시글 사진 버튼 누르면 갤러리 열리는 기능 구현-> 좀 더 수정 후 다른 클래스 만들어서 옮길 예쩡
-       /* fun LoadImage(v:View){
-            startActivityForResult(Intent(Intent.ACTION_PICK, MediaStore.Images.Media.INTERNAL_CONTENT_URI), 0)
-        }
 
-        override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-            super.onActivityResult(requestCode, resultCode, data)
-            if(data!= null) iv_basic.setImageURI(data?.data)
-        }
-*/
+
 
 
         //네비게이션 바 구현

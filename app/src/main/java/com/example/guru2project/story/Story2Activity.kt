@@ -3,6 +3,7 @@ package com.example.guru2project.story
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.widget.ImageView
 import android.widget.TextView
 import com.example.guru2project.R
@@ -26,10 +27,11 @@ class Story2Activity : AppCompatActivity() {
         render.start()
 
 
-        nextBtn2.setOnClickListener {
-            val nextIntent = Intent(this, Story3Activity::class.java)
-            startActivity(nextIntent)
-        }
+        //3초 지나면 스플래시로 다음장면
+        Handler().postDelayed({
+            startActivity(Intent(this, Story3Activity::class.java))
+            finish()
+        }, 3000)
 
     }
 }

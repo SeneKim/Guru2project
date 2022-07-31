@@ -14,13 +14,13 @@
         android:theme="@style/Theme.Guru2Project"
         tools:targetApi="31">
         <activity
-            android:name=".Story3Activity"
+            android:name=".story.Story3Activity"
             android:exported="false" />
         <activity
-            android:name=".Story2Activity"
+            android:name=".story.Story2Activity"
             android:exported="false" />
         <activity
-            android:name=".StoryActivity"
+            android:name=".story.StoryActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
